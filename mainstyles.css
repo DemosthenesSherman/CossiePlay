@@ -1,0 +1,88 @@
+@charset "utf-8";
+ul#menu li a {
+	color: #333333;
+	text-decoration: none;
+	padding-right: 21px;
+	border: 1px solid #999999;
+	border-radius: 8px;
+	padding-left: 18px;
+}
+
+ul#menu li a:hover  {
+	background-color: #999999;
+	color: #F3F3F3;
+}
+
+ul #menu  {
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+	padding: 0px;
+	bottom: 0px;
+}
+
+ul#menu li {
+	font-family: 'Architects Daughter', cursive;
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	padding-right: 0px;
+	padding-left: 19px;
+	margin-right: 11px;
+}
+
+#nav{
+	text-align: center;
+	padding-top: 13px;
+	margin-left: -54px;
+}
+
+header {
+	padding-top: 3px;
+	text-align: left;
+}
+
+header strong {
+	font-family: 'Architects Daughter', cursive;
+	font-weight: 400;
+	font-size: xx-large;
+	letter-spacing: 5px;
+}
+
+#title {
+	font-family: 'Droid Sans', sans-serif;
+	padding-left: 0px;
+	text-align: center;
+	padding-top: 16px;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#promo {
+	font-size: xx-large;
+}
+
+#promo2 {
+	font-size: xx-large;
+}
+
+#promo3{
+	font-size: xx-large;
+}
+
+#table {
+	padding-right: 0px;
+	padding-left: 52px;
+}
+
+th {
+	text-align: center;
+}
+
+#name {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 10px;
+}
