@@ -75,6 +75,7 @@ ul#menu li {
 	padding-bottom: 14px;
 	margin-left: -31px;
 	margin-right: -31px;
+	padding-top: 6px;
 }
 
 header {
@@ -83,7 +84,18 @@ header {
 }
 footer {
 	font-family: 'Droid Sans', sans-serif;
+	border-width: thin;
+	border-style: solid;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	background-color: #334431;
+	color: #FFE28A;
+	margin-top: 112px;
 }
+#comms {
+	margin-top: 457px;
+}
+
 
 header strong {
 	font-family: 'Architects Daughter', cursive;
@@ -108,9 +120,25 @@ header strong {
 	border-radius: 8px;
 	border: thin solid #FFE28A;
 	text-align: center;
-	margin-right: 147px;
-	margin-left: 226px;
+	margin-right: 173px;
+	margin-left: 213px;
 	padding-right: 5px;
+}
+#bottom {
+	font-family: 'Architects Daughter', cursive;
+	text-decoration: none;
+	color: #E46853;
+	border-width: thin;
+	border-style: solid;
+	border-radius: 8px;
+	margin-right: 173px;
+	margin-left: 213px;
+	padding-right: 5px;
+	text-align: center;
+}
+#bottom:hover{
+	background-color: #E46853;
+	color: #FFE28A;
 }
 #info {
 	font-size: 17px;
@@ -160,14 +188,14 @@ blockquote {
 	font-family: 'Architects Daughter', cursive;
 	font-size: xx-large;
 	color: #FFE28A;
-	margin-top: 0px;
 	padding-top: 81px;
 	padding-bottom: 0px;
-	margin-bottom: -8px;
 }
 
 #promo3{
+	font-family: 'Architects Daughter', cursive;
 	font-size: xx-large;
+	margin-bottom: -7px;
 }
 #intro {
 	padding-top: 4px;
