@@ -1,16 +1,28 @@
 @charset "utf-8";
+html {
+	background-color: #ffe28a;
+}
+body {
+	font-family: 'Droid Sans', sans-serif;
+	color: #334431;
+}
+.sections {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 23px;
+}
+
 ul#menu li a {
-	color: #333333;
+	color: #e05038;
 	text-decoration: none;
 	padding-right: 21px;
-	border: 1px solid #999999;
+	border: 1px solid #e05038;
 	border-radius: 8px;
 	padding-left: 18px;
 }
 
 ul#menu li a:hover  {
-	background-color: #999999;
-	color: #F3F3F3;
+	background-color: #e05038;
+	color: #fffeb3;
 }
 
 ul #menu  {
@@ -27,54 +39,147 @@ ul#menu li {
 	display: inline;
 	text-align: center;
 	padding-right: 0px;
-	padding-left: 19px;
-	margin-right: 11px;
+	padding-left: 2px;
+	margin-right: 3px;
+}
+#call2act {
+	padding-top: 357px;
+	padding-bottom: 28px;
+	background-position: 72% 43%;
+	height: 561px;
+	background-color: #E46853;
+	margin-left: -10px;
+	margin-right: -17px;
+	margin-top: -4px;
+	background-image: url(sewing-hands-1418016.jpg);
+	background-size: cover;
 }
 
+
 #nav{
-	text-align: center;
-	padding-top: 13px;
-	margin-left: -54px;
+	text-align: right;
+	padding-top: 6px;
+	margin-left: -115px;
+	padding-right: 246px;
+	padding-left: 0px;
+	padding-bottom: 12px;
+	background-color: #334431;
+	margin-top: 5px;
+	margin-right: -20px;
+}
+#party {
+	color: #FFE28A;
+	background-image: url(party-1506740-640x480.jpg);
+	background-repeat: repeat-x;
+	background-size: cover;
+	padding-bottom: 14px;
+	margin-left: -31px;
+	margin-right: -31px;
 }
 
 header {
 	padding-top: 3px;
 	text-align: left;
 }
+footer {
+	font-family: 'Droid Sans', sans-serif;
+}
 
 header strong {
 	font-family: 'Architects Daughter', cursive;
 	font-weight: 400;
-	font-size: xx-large;
+	font-size: 42px;
 	letter-spacing: 5px;
+	color: #334431;
 }
 
 #title {
 	font-family: 'Droid Sans', sans-serif;
 	padding-left: 0px;
 	text-align: center;
-	padding-top: 16px;
+	padding-top: 0px;
+	margin-top: -12px;
 }
 
-p {
-	font-family: 'Droid Sans', sans-serif;
+.buttons {
+	font-family: 'Architects Daughter', cursive;
+	color: #FFE28A;
+	text-decoration: none;
+	border-radius: 8px;
+	border: thin solid #FFE28A;
+	text-align: center;
+	margin-right: 147px;
+	margin-left: 226px;
+	padding-right: 5px;
+}
+#info {
+	font-size: 17px;
+	margin-bottom: 53px;
+}
+#explain {
+	margin-bottom: 53px;	
+}
+a {
+	text-decoration: none;
+}
+.buttons:hover{
+	background-color: #FFE28A;
+	color: #678A63;
+}
+.buy {
+	font-family: 'Architects Daughter', cursive;
+	color: #E05038;
+	text-decoration: none;
+	border-radius: 8px;
+	border: thin solid #E05038;
+	text-align: center;
+}
+.buy:hover{
+	background-color: #E05038;
+	color: #FFE28A;
+}
+blockquote {
+	padding-left: 113pt;
+	padding-right: 141pt;
+}
+#statement {
+	text-align: center;
+	margin-bottom: 21px;
+	color: #FFE28A;
 }
 
 #promo {
+	font-family: 'Architects Daughter', cursive;
 	font-size: xx-large;
+	text-align: center;
+	color: #FFE28A;
+	margin-bottom: -11px;
 }
 
 #promo2 {
+	font-family: 'Architects Daughter', cursive;
 	font-size: xx-large;
+	color: #FFE28A;
+	margin-top: 0px;
+	padding-top: 81px;
+	padding-bottom: 0px;
+	margin-bottom: -8px;
 }
 
 #promo3{
 	font-size: xx-large;
 }
+#intro {
+	padding-top: 4px;
+	padding-bottom: 0px;
+	text-align: center;
+}
 
 #table {
-	padding-right: 0px;
-	padding-left: 52px;
+	padding-right: 114px;
+	padding-left: 24px;
+	text-align: left;
+	margin-bottom: 53px;
 }
 
 th {
@@ -85,4 +190,18 @@ th {
 	text-align: center;
 	padding-left: 0px;
 	padding-right: 10px;
+}
+#contact {
+	text-align: center;
+	margin-top: 35px;
+}
+#steve {
+	float: left;
+	padding-right: 13px;
+}
+#sally {
+	float: right;
+	margin-right: -1px;
+	margin-left: 8px;
+	padding-right: 36px;
 }
